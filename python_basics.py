@@ -23,4 +23,8 @@ print("octal :", oct_val)
 print("hexa :", hex_val)
 print("scientific :", scientific_val)
 
+# converting binary string '1011' to integer (Decimal: 11)
+
+print ("Binary 1011 converted to decimal :", (int("1011", 2)))
+
 
