@@ -3,7 +3,7 @@ File: 02_fundamentals.py
 
 Topic Covered:
 - Variables
-- Data Types (int, float, str, bool)
+- Data Types 
 - Basics Operators 
 
 
@@ -70,6 +70,72 @@ print(harry, mary, john,)
 
 total_apples = harry + mary + john
 print(total_apples)
+
+
+'''
+Lab Task: Evaluate the algebraic expression: 3x^3 - 2x^2 + 3x -1
+Note: "x" must be of type float.
+The result should be assigned to y.
+'''
+
+# Sample Input
+x = 0
+x = 1
+x = -1
+
+x = 0
+x = float(x)
+y = 3 *x**3 - 2 *x**2 + 3 *x - 1
+print("y =", y)
+
+x = 1
+x = float(x)
+y = 3 *x**3 - 2 *x**2 + 3 *x - 1
+print("y =", y)
+
+x = -1
+x = float(x)
+y = 3 *x**3 - 2 *x**2 + 3 *x - 1
+print("y =", y)
+
+# Used to variable in various type.
+var = 2
+print(var)
+
+var = 3
+print(var)
+
+var += 1
+print(var)
+
+var = "007"
+print("Agent " + var)
+
+
+a = '1'
+b = "2"
+print(a + b)
+
+# Operators   (+ ,- ,* ,** ,/ ,// ,% )
+
+print(2 + 2)     # addition of two numbers
+print(3 - 2)     # subtraction of two numbers
+print(3 * 6)     # multiplication of two numbers
+print(3 ** 2)    # 
+print(5 / 2)     # exponential 
+print(15 // 7)   # floor Division
+print(10 % 5)    # Modulus
+
+# floor division
+print(6 // 4)
+print(6. // 4)
+
+print(-6 // 4)
+print(6. // -4)
+
+
+
+
 
 
 
