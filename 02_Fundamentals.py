@@ -121,8 +121,8 @@ print(a + b)
 print(2 + 2)     # addition of two numbers
 print(3 - 2)     # subtraction of two numbers
 print(3 * 6)     # multiplication of two numbers
-print(3 ** 2)    # 
-print(5 / 2)     # exponential 
+print(3 ** 2)    # exponential
+print(5 / 2)     # Division operators
 print(15 // 7)   # floor Division
 print(10 % 5)    # Modulus
 
@@ -132,6 +132,36 @@ print(6. // 4)
 
 print(-6 // 4)
 print(6. // -4)
+
+
+# Exercise
+
+m = 5 
+n = 6
+
+ans1 = n + m
+print("Addition of ans1 is :", ans1)
+
+ans2 = n - m 
+print("Subtraction of ans2 is :", ans2)
+
+ans3 = n * m
+print("multiplication of ans3 is :",  ans3)
+
+ans4 = n / m
+print("division of ans4 is :", ans4)
+
+ans5 = n // m
+print("floor division of ans5 is :",  ans5)
+
+ans6 = n % m
+print("modulus of ans6 is :", ans6)
+
+ans7 = n ** m
+print("exponential of ans7 is :", ans7)
+
+
+
 
 
 
