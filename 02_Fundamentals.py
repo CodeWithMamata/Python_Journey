@@ -116,7 +116,7 @@ a = '1'
 b = "2"
 print(a + b)
 
-# Operators   (+ ,- ,* ,** ,/ ,// ,% )
+# 2. Operators   (+ ,- ,* ,** ,/ ,// ,% )
 
 print(2 + 2)     # addition of two numbers
 print(3 - 2)     # subtraction of two numbers
@@ -161,7 +161,16 @@ ans7 = n ** m
 print("exponential of ans7 is :", ans7)
 
 
+# operators and their priorities
 
+# for example: 2 + 3 * 5
+
+print(2 + 3 * 5)       # answer are:17 because "*" has a higher priority than "+". 
+
+# Operators and their bindings(same side of equal priority)
+
+print(9 % 6 % 2)       # we calculate to ans in left-right side.
+print(2 ** 2 ** 3)     # the exponentiation operator uses right-sided binding.
 
 
 
