@@ -5,6 +5,7 @@ Topic Covered:
 - Variables
 - Data Types 
 - Basics Operators 
+- type casting
 
 
 """
@@ -171,9 +172,10 @@ print(2 + 3 * 5)       # answer are:17 because "*" has a higher priority than "+
 
 print(9 % 6 % 2)       # we calculate to ans in left-right side.
 print(2 ** 2 ** 3)     # the exponentiation operator uses right-sided binding.
+print(2 * 3 % 5)       # both operator are same priority then python evaluates using left- right side
+print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
 
-
-
+print((-2 / 4), (2 / 4), (2 // 4), (-2 // 4))
 
 
 
