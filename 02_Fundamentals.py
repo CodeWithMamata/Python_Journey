@@ -177,6 +177,30 @@ print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
 
 print((-2 / 4), (2 / 4), (2 // 4), (-2 // 4))
 
+# 3. Type Casting
 
+a = "1"
+b = "2"
+print(a + b)         # its always print their output as a jaisa likha hai vysa hi print hoga ex: print(a + b): 12 not a print 3.
+print(int(a) + int(b))   # its convert the sting into integer values.
 
+string = "12"
+number = 3
 
+string_number = int(string)
+sum = number + string_number
+print("sum of the both numbers is:", sum) 
+
+# implicit TypeCasting 
+c = 2.8
+d = 4
+print(c + d)
+
+a = 7
+print(type(a))
+b = 3.0
+print(type(b))
+
+c = a + b           # python automatically convert c to float as it is float addition
+print(c)
+print(type(c))
