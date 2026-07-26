@@ -204,3 +204,46 @@ print(type(b))
 c = a + b           # python automatically convert c to float as it is float addition
 print(c)
 print(type(c))
+
+# how to used input function:
+
+z = input("Enter your name: ")
+print("My Name is: ", z)
+
+'''x = input("Enter your first number:")
+y = input("Enter your second number:")
+print(x + y)       # its always print string 
+print(int(x) + int(y))'''
+
+
+# Arithmetric operators using input function.
+
+a = input("Enter your first value: ")
+b = input("Enter your second value: ")
+
+print(a + b)
+print(a * b)
+print(a % b)
+print(a ** b)
+print(a // b)   # agr ye operator ko as a string ke tarah used krege to answer hmesa error aayga.
+
+print(int(a) + int(b))
+print(int(a) - int(b))
+print(int(a) * int(b))
+print(int(a) / int(b))
+print(int(a) % int(b))
+print(int(a) ** int(b))
+print(int(a) // int(b))   # its print always their original value because it used to int data type.
+
+
+
+
+
+
+
+
+
+
+
+
+
