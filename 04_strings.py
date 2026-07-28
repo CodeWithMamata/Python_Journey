@@ -20,5 +20,14 @@ print("lets use a for loop\n")
 for chr in name:
     print(chr)
 
-for type in name:
-    print(type)    
+
+# Practice Question
+
+
+x = int(input("Enter a number: "))    # The user enters 3
+print(x * "5")
+
+y = input("Enter a number: ") # The user enters 2
+print(type(y))
+
+
