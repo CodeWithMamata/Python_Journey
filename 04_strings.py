@@ -31,3 +31,17 @@ y = input("Enter a number: ") # The user enters 2
 print(type(y))
 
 
+names = "Mamata Mourya, Pratham"
+print(names[0:6])
+print(len(names))
+
+fruit = "Mango"
+len1 = len(fruit)
+print("mango is a", len1 , "letter words.")
+
+fruit = "Banana"
+bananalen = len(fruit)
+print(bananalen)
+print(fruit[0:5])
+print(fruit[:5])
+print(fruit[1:5])
