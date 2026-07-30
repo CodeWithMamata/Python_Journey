@@ -24,11 +24,11 @@ for chr in name:
 # Practice Question
 
 
-x = int(input("Enter a number: "))    # The user enters 3
-print(x * "5")
+#x = int(input("Enter a number: "))    # The user enters 3
+#print(x * "5")
 
-y = input("Enter a number: ") # The user enters 2
-print(type(y))
+#y = input("Enter a number: ") # The user enters 2
+#print(type(y))
 
 
 names = "Mamata Mourya, Pratham"
@@ -45,3 +45,16 @@ print(bananalen)
 print(fruit[0:5])
 print(fruit[:5])
 print(fruit[1:5])
+print(fruit[0:-4])
+print(fruit[-1:-3])
+
+# Quick Quiz
+
+nm = "Harry"
+print(nm[-4:-2])
+
+
+# String are immutable
+name = "mamata mourya"
+print(name.upper())
+print(name.lower())
