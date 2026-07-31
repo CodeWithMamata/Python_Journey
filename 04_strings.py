@@ -58,3 +58,4 @@ print(nm[-4:-2])
 name = "mamata mourya"
 print(name.upper())
 print(name.lower())
+print(name.capitalize())
