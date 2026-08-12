@@ -55,7 +55,13 @@ print(nm[-4:-2])
 
 
 # String are immutable
-name = "mamata mourya"
+name = "mamata mourya !!"
 print(name.upper())
 print(name.lower())
 print(name.capitalize())
+print(name.rstrip("!"))
+print(name.replace("mamata", "Aashish"))
+print(name.split(" "))
+
+str1 = "Welcome to python Journey!!!"
+print(str1.center(25))
