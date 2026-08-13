@@ -78,5 +78,5 @@ print(str2.find("ishh"))     # find method mai kuch bhi wrong likha to vo return
 
 str3 = "WelcomeToTheConsole"
 print(str3.isalnum())  # if any character, punctuation or numbers(0-9) are present ,then it return False
-str1 = "hello World"
-print(str1.islower())
+str1 = "hello world"
+print(str1.islower())   # is return True if all chr. are lower case else it return False.
