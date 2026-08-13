@@ -55,7 +55,7 @@ print(nm[-4:-2])
 
 
 # String are immutable
-name = "mamata mourya !!"
+name = "mamata mourya !! mamata"
 print(name.upper())
 print(name.lower())
 print(name.capitalize())
@@ -65,3 +65,18 @@ print(name.split(" "))
 
 str1 = "Welcome to python Journey!!!"
 print(str1.center(25))
+print(len(str1))
+print(name.count("mamata"))
+print(str1.endswith("000"))
+print(str1.endswith("!!!"))
+print(str1.endswith("to", 4, 10))
+
+str2 = "he's name is pratham. He is an honest man."
+print(str2.find("is"))
+print(str2.find("ishh"))     # find method mai kuch bhi wrong likha to vo return -1 krega.
+#print(str2.index("ishh"))    # index method are return the error for wrong letter in string
+
+str3 = "WelcomeToTheConsole"
+print(str3.isalnum())  # if any character, punctuation or numbers(0-9) are present ,then it return False
+str1 = "hello World"
+print(str1.islower())
