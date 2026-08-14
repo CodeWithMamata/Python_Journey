@@ -80,3 +80,12 @@ str3 = "WelcomeToTheConsole"
 print(str3.isalnum())  # if any character, punctuation or numbers(0-9) are present ,then it return False
 str1 = "hello world"
 print(str1.islower())   # is return True if all chr. are lower case else it return False.
+str4 = "Hello World"
+print(str4.istitle())   # it used to first letter will be capitalized & use Title.
+str1 = "Python is a interpreted language"   # check the if string start with given value then return True else False.
+print(str1.startswith("Python"))
+
+str1 = "Python is a interpreted language"
+print(str1.swapcase())    # This method use to convert upper case to lower case & lower case to upper.
+str2 = "he's name is pratham. He is an honest man."
+print(str2.title())   # it's capitalizes each starting words
