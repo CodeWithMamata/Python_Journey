@@ -13,3 +13,9 @@ for color in colors:
     print(color)
     for i in color:
         print(i)
+
+fruits = ["Banana","Apple","orange","Mango","Grapes"]
+for fruit in fruits:
+    print(fruit) 
+    for i in fruit:
+        print(i)       
