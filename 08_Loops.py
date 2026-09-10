@@ -50,14 +50,11 @@ for i in range(1, 2):
 
 #2.While Loop
 
-i = 0
+'''  i = 0
 while(i<5):
     print(i)
-    i += 1
+    i += 1'''
+    
 
-count = 7
-while(count > 0):
-    print(count)
-    count = count - 1
-else:
-    print("I am inside else")
+
+
