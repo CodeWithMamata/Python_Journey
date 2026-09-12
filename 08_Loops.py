@@ -54,7 +54,34 @@ for i in range(1, 2):
 while(i<5):
     print(i)
     i += 1'''
+
+# Break Statement (exits the loop immediately)
+
+for i in range(12):
+    if(i == 10):
+        break
+    print("5 X", i + 1, "=", 5 * (i+1))   
+
+
+print("The break instruction:")
+for i in range(1, 6):
+    if i == 4:
+        break
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
+# Continue Statement (Exits the iteration)
+
+for i in range(12):
+    if(i == 10):
+        print("skip the iterarion")
+        continue
+    print("5 X", i, "=", 5 * (i))   
     
+
+
+
+
 
 
 
